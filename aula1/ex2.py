@@ -1,14 +1,4 @@
-nome = "mario"
-idade = 52
+nome = input("Qual o seu nome")
 
-print(f"nome: {nome}, idade: {idade}")
-
-
-
-A = "mario"
-B = "antonio"
-
-# Trocando o conteúdo
-A, B = B, A
-
-print("Depois da troca: A =", A, "B =", B)
+print("olá, " + nome + "! Seja bem vindo(a)")
+print(f"Olá, {nome}! Seja bem vindo(a)")
