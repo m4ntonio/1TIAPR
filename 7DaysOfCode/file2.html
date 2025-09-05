@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Desafio JS</title>
+</head>
+<body>
+  <h1>Simulador de Cadastro</h1>
+  <button onclick="iniciar()">Começar</button>
+
+  <script>
+    function iniciar() {
+      // Perguntando os dados ao usuário
+      const nome = prompt("Qual o seu nome?");
+      const idade = prompt("Quantos anos você tem?");
+      const linguagem = prompt("Qual linguagem de programação você está estudando?");
+
+      // Exibindo a mensagem final
+      alert(`Olá ${nome}, você tem ${idade} anos e já está aprendendo ${linguagem}!`);
+
+      // EXERCÍCIO OPCIONAL
+      const gosta = prompt(`Você gosta de estudar ${linguagem}? Responda com 1 para SIM ou 2 para NÃO.`);
+
+      if (gosta == "1") {
+        alert("Muito bom! Continue estudando e você terá muito sucesso.");
+      } else if (gosta == "2") {
+        alert("Ahh que pena... Já tentou aprender outras linguagens?");
+      } else {
+        alert("Resposta inválida! Digite apenas 1 ou 2.");
+      }
+    }
+  </script>
+</body>
+</html>
