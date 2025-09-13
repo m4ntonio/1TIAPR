@@ -24,7 +24,7 @@ else:
     print("O ano não é bissexto.")
 
 
-# 4. Verifica se um caractere é vogal ou consoante
+# 4. Verifica se um caractere é vogal ou consoantesssssssss
 caractere = input("Digite uma letra: ").lower()
 if caractere in "aeiou":
     print("É uma vogal.")
