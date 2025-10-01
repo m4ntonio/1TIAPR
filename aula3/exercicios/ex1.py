@@ -19,6 +19,14 @@ for i in range(3):
         linha.append(matriz1[i][j] + matriz2[i][j])
     soma.append(linha)
 
+print("Matriz 1:")
+for linha in matriz1:
+    print(linha)
+
+print("Matriz 2:")
+for linha in matriz2:
+    print(linha)
+
 # Exibe o resultado
 print("Matriz Soma:")
 for linha in soma:

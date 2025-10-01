@@ -1,5 +1,3 @@
-print("=== Método 1: Listas Python ===")
-
 # Criando uma matriz 3x2
 matriz = [
     [1, 2],
