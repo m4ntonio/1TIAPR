@@ -1,7 +1,7 @@
 # Criação da matriz 2x2
 matriz = [
-    [2, 4],
-    [6, 8]
+    [1, 2],
+    [3, 4]
 ]
 
 # Definição do escalar
