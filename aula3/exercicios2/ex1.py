@@ -13,6 +13,11 @@ def divisao(a, b):
     else:
         return "Divisão por zero não é permitida"
 
+resultado_soma = adicao(10, 5)
+resultado_subtracao = subtracao(10, 5)
+resultado_multiplicacao = multiplicacao(10, 5)
+resultado_divisao = divisao(10, 5)
+
 # Exemplos de uso:
 print("Adição:", adicao(5, 3))
 print("Subtração:", subtracao(5, 3))

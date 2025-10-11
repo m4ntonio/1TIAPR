@@ -1,6 +1,10 @@
 def contar_vogais(texto):
     vogais = "aeiouAEIOU"
-    return sum(1 for letra in texto if letra in vogais)
+    contador = 0
+    for char in texto:
+        if char in vogais:
+            contador += 1
+    return contador
 
 frase = input("Digite uma frase: ")
 print(f"Número de vogais: {contar_vogais(frase)}")
