@@ -1,3 +1,6 @@
-#abrir um arquivo para escrita
-with open("ex1.txt", "w") as file:
-    file.write("Hello, World!\n")
+arquivo = open('ex1.txt', 'r')
+texto = arquivo.read()
+palavras = len(texto.split())
+arquivo.close()
+
+print(f'O arquivo tem {palavras} palavras.')
