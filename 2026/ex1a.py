@@ -39,3 +39,4 @@ print(g.info())
 
 p = Passaro("Piu", 2, True)
 print(p.info())
+
